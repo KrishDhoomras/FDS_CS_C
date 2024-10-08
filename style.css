@@ -6,6 +6,18 @@
 #reg-form
 {
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
+}
+#heading
+{
+    background-color: chartreuse;
+    font-size: 60px;
+    text-align: center;
+    border: 10px solid re ;
+}
+table
+{
+    background-color: chartreuse;
+    font-size: 40px;
+    border: 10px solid red;
 }
