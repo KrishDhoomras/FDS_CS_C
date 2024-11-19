@@ -1,0 +1,38 @@
+body{
+    background-color: aqua;
+    ;
+}
+.container{
+    background-color: aquamarine;
+    height: 300px;
+    border: 2px solid red;
+    width: 800px;
+    margin: 40px 20px 10px;
+    padding: 80px;
+    box-sizing: border-box;
+    grid-template-columns: 20;
+    
+}
+/*
+.child1{
+    background-color: yellow;
+}
+.child2{
+    background-color: blue;
+}
+.child3{
+    background-color: blueviolet;
+}
+
+/*
+.child1,.child2,.child3{
+
+    display: inline-block;
+    
+    height: 150px;
+    border: 1px dotted yellowgreen;
+    width: 150px;
+    padding-top: 40px;
+    padding-left: 30px;
+    
+} 
