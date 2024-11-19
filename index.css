@@ -1,0 +1,30 @@
+#d1{
+    border-radius: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+    width: 700px;
+    height: 400px;
+    align-self: center;
+    translate: 400px  100px;
+    justify-content:center ;
+    border-style: ridge;
+
+}
+#joke{
+    border-color: black;
+    background-color: gainsboro;
+    width: 400px;
+    height: 200px;
+    justify-content:center ;
+    translate: 150px;
+    border-style: groove;
+}
+
+#b1{
+    background-color: greenyellow;
+    translate: -50px 40px;
+}
+#b2{
+    background-color: red;
+    translate: 50px 40px;
+}

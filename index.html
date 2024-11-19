@@ -3,63 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Joke Generator</title>
+    <script>
+
+    </script>
+        
 </head>
 <body>
-    <div id="reg-form">
-    <table>
-        <h1><tr><td colspan="2">Registration Form</td></tr></h1>
-        <tr><td>Username</td>
-        <td><input type="text" placeholder="username"></td></tr>
-        <tr>
-            <td>Password</td>
-            <td><input type="password"></td>
-        </tr>
-        <tr>
-        <td>Email</td>
-        <td><input type="email"></td>
-    </tr>
-    <tr>
-        <td>Date of Birth</td>
-        <td><input type="date"></td>
-    </tr>
-    <tr>
-        <td>UserProfile</td>
-        <td><input type="file"></td>
-    </tr>
-    <tr>
-        <td>Branch</td>
-        <td>
-            CS<input type="radio" value="CS" name="r1">
-            CSE<input type="radio" value="CSE" name="r2">
-            IT<input type="radio" value="IT" name="r3">
-        </td>
-    </tr>
-    <tr>
-        <td>Languages Known</td>
-        <td>
-            C<input type="checkbox" name="c1">
-            C++<input type="checkbox" name="c2">
-            Java<input type="checkbox" name="c3">
-        </td>
-    </tr>
-    <tr>
-        <td>Select City</td>
-        <td>
-        <select>
-        <option value="GZB">Ghaziabad</option>
-        <option value="DLH">Delhi</option>
-        <option value="Noida">Noida</option>
-    </td>
-    </select>
-    </tr>
-    <tr>
-        <td>Address</td>
-        <td><textarea rows="5" cols="22" name="addr"></textarea></td>
-    </tr>
+    <div id="d1">
+        <h1>Random Joke Generator</h1>
+        <div id="joke">
+            <p id="p1">Press the button for a joke!</p>
+            <p id="charcount">Character count = 0</p>
+        </div>
+        <button id="b1" onclick="fetchjoke()">Get Joke</button>
+        <button id="b2" onclick="clearjoke()">Clear Joke</button>
+        <script src="script.js"></script>
 
-    </table>
-</div>
+    </div>
+    
 </body>
 </html>
